@@ -4,7 +4,7 @@
 
 The focus group results have been collected and the BusMall catalog is ready to be released! The results were so positive that the marketing team would also like to make these products available for online purchase. Your new task is to create an order form page and a shopping cart page.
 
-The marketing team wants the site to go live in a few hours. To give you an idea of what they are looking for, the team has added some `TODO` tasks throughout the JavaScript files. They do not have any preferences for styling, so use your best judgment when filling in the `style.css` file. However, they refuse to budge on the structure of the website and have asked that you *DO NOT* modify the HTML files in any way.
+The marketing team wants the site to go live in a few hours, so strive to finish this lab by 5:00. To give you an idea of what they are looking for, the team has added some `TODO` tasks throughout the JavaScript files. They do not have any preferences for styling, so use your best judgment when filling in the `style.css` file. However, they refuse to budge on the structure of the website and have asked that you *DO NOT* modify the HTML files in any way.
 
 **You will notice a few new things as you go through this exercise:**
 1. There are multiple .js files
@@ -14,7 +14,8 @@ The marketing team wants the site to go live in a few hours. To give you an idea
 1. You will need to reference elements without IDs
 
 This is a pair programming lab. One person from the pair will ***fork*** the lab repo which will contain all of the files necessary to complete the project.
-Add the other person as a collborator. That means that both of you will have privileges to push and merge to that repo.
+
+In the "Settings" tab on the fork, add the other person as a collborator. That means that both of you will have privileges to push and merge to that repo.
 
 Fill in the necessary code in the JavaScript and CSS files, but **do not modify the HTML files in any way**.
 
