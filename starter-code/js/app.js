@@ -26,8 +26,8 @@ var CartItem = function(product, quantity) {
 
 // Product contructor.
 var Product = function(filePath, name) {
-  this.filePath = filePath;
-  this.name = name;
+  this.filePath = `/assets/images/${name}`;
+  this.name = name.split('.')[0];
   Product.allProducts.push(this);
 };
 Product.allProducts = [];
