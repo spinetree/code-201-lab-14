@@ -10,7 +10,7 @@ body {
 header{
 
     box-shadow: 5px 5px 15px rgb(132, 134, 138);
-    
+    background-image: linear-gradient(320deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
 }
 }
 
@@ -40,7 +40,7 @@ h1 {
 h1:hover {
     
     text-shadow: 30px 30px 1px rgb(253, 253, 253);
-    transition: ease-in-out 3s all;
+    transition: ease-in-out 1s all;
 }
 
 
@@ -49,6 +49,7 @@ nav > ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: rgb(58, 67, 78);
     
   }
   
@@ -56,7 +57,7 @@ ul > li {
     float: left;
     background-image: linear-gradient(260deg, rgb(197, 229, 247) 0%, #6bbaee 100%);
     text-shadow: 2px 2px 5px rgb(253, 253, 253);
-  }
+}
   
 ul > li a {
 
@@ -67,12 +68,23 @@ ul > li a {
     text-align: center;
     text-decoration: none;
     
-  }
+}
+
+#itemCount {
+
+    color: #721d07;
+    font-size : 20px;
+    font-family: fantasy;
+    height : 60px;
+    padding: 25px;
+    text-shadow: 2px 2px 5px rgb(253, 253, 253);
+
+
+}
 
 ul > li a:hover {
 
-
-    background-image: linear-gradient(260deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
+    background-image: linear-gradient(320deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
     color: rgb(146, 12, 12);
     box-shadow: 5px 5px 5px rgb(240, 243, 247);
     text-shadow: 2px 2px 6px rgb(163, 16, 5);
@@ -86,11 +98,49 @@ div > ol {
   
   
 ol > li {
-    list-style: decimal;
+    color: rgb(72, 75, 80);
     font-family: fantasy;
+    list-style: decimal;
     margin-left : 250px;
     margin-top : 10px;
     padding: 5px 5px;
     text-shadow: 2px 2px 5px rgb(253, 253, 253);
 
+}
+
+span {
+
+    color: rgb(58, 67, 78);
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-shadow: 2px 2px 5px rgb(253, 253, 253);
     
+
+}
+
+#catalog {
+
+    margin-top: 20px;
+
+}
+
+legend {
+
+    font-family: fantasy;
+    box-shadow: 2px 2px 5px rgb(240, 243, 247);
+    font-size : 25px;
+    margin-bottom: 10px;
+}
+
+#quantity {
+
+    background-image: linear-gradient(320deg, rgb(197, 229, 247)  0%, #6bbaee 100%);
+    color: #721d07;
+    font-size : 20px;
+    font-family: fantasy;
+    padding: 5px;
+    text-shadow: 2px 2px 5px rgb(253, 253, 253);
+    width: 70px;
+}
+
