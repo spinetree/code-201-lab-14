@@ -1,1 +1,96 @@
-/* TODO: Make it awesome */
+body {
+
+    box-shadow: 5px 5px 15px rgb(132, 134, 138);
+    margin: auto;
+    width:960px;
+    text-align: center;
+    background-image: linear-gradient(320deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
+}
+
+header{
+
+    box-shadow: 5px 5px 15px rgb(132, 134, 138);
+    
+}
+}
+
+main {
+    
+
+}
+
+nav {
+
+    background-image: linear-gradient(320deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
+   
+}
+
+h1 {
+    color: rgb(58, 67, 78);
+    font-family: fantasy;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px rgb(253, 253, 253);
+
+}
+
+h1:hover {
+    
+    text-shadow: 30px 30px 1px rgb(253, 253, 253);
+    transition: ease-in-out 3s all;
+}
+
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+ul > li {
+    float: left;
+    background-image: linear-gradient(260deg, rgb(197, 229, 247) 0%, #6bbaee 100%);
+    text-shadow: 2px 2px 5px rgb(253, 253, 253);
+  }
+  
+ul > li a {
+
+    color: rgb(58, 67, 78);
+    display: block;
+    font-family: fantasy;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+ul > li a:hover {
+
+
+    background-image: linear-gradient(260deg, #6bbaee 0%, rgb(197, 229, 247) 100%);
+    color: rgb(146, 12, 12);
+    box-shadow: 5px 5px 5px rgb(240, 243, 247);
+    text-shadow: 2px 2px 6px rgb(163, 16, 5);
+    transition: 1s all;
+  }
+
+div > ol {
+
+    text-align: left;
+}
+  
+  
+ol > li {
+    list-style: decimal;
+    font-family: fantasy;
+    margin-left : 250px;
+    margin-top : 10px;
+    padding: 5px 5px;
+    text-shadow: 2px 2px 5px rgb(253, 253, 253);
+
+    
