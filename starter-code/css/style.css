@@ -100,7 +100,7 @@ div > ol {
 ol > li {
     color: rgb(72, 75, 80);
     font-family: fantasy;
-    list-style: decimal;
+    list-style: square;
     margin-left : 250px;
     margin-top : 10px;
     padding: 5px 5px;
@@ -144,3 +144,20 @@ legend {
     width: 70px;
 }
 
+
+#cart {
+
+    font-family: fantasy;
+    font-size : 10px;
+    text-align: left;
+}
+
+p {
+
+    font-family: fantasy;
+    font-size : 10px;
+    text-align: left;
+    margin-top: 20px;
+
+
+}
