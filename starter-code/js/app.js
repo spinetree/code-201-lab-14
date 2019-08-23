@@ -1,5 +1,6 @@
 'use strict';
 
+var 
 // Cart constructor.
 var Cart = function(items) {
   // this.items is an array of CartItem instances.
@@ -28,6 +29,8 @@ var CartItem = function(product, quantity) {
 var Product = function(filePath, name) {
   this.filePath = `/assets/images/${name}`;
   this.name = name.split('.')[0];
+  this.product= 0;
+  this.quantity= 0;
   Product.allProducts.push(this);
 };
 Product.allProducts = [];
